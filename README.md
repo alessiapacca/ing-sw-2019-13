@@ -18,7 +18,7 @@ Alessia Paccagnella |
 - [x] Regole complete del gioco
 - [x] Socket connection
 - [x] RMI connection
-- [x] Gui (graphics interface)
+- [x] Gui (graphic interface)
 - [x] CLI (command line interface)
 - [x] Partite Multiple
 
