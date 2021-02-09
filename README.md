@@ -2,8 +2,8 @@
 Implementazione del gioco in scatola Adrenaline per il progetto di ingegneria del software 2019 al Politecnico di Milano. 
 
 <p float="left">
-  <img src="https://github.com/alessiapacca/ing-sw-2019-13/blob/master/adrenaline.jpg" width="450">
-  <img src="https://github.com/alessiapacca/ing-sw-2019-13/blob/master/carte.jpg" width="470">
+  <img src="https://github.com/alessiapacca/ing-sw-2019-13/blob/master/adrenaline.jpg" width="445">
+  <img src="https://github.com/alessiapacca/ing-sw-2019-13/blob/master/carte.jpg" width="465">
 </p>
 
 
