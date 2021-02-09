@@ -1,43 +1,46 @@
 # Progetto di Ingegneria del Software 2019
 Implementazione del gioco in scatola Adrenaline per il progetto di ingegneria del software 2019 al Politecnico di Milano. 
 
-Membri del gruppo  | 
+<p float="left">
+  <img src="https://github.com/alessiapacca/ing-sw-2019-13/blob/master/adrenaline.jpg" width="400">
+  <img src="https://github.com/alessiapacca/ing-sw-2019-13/blob/master/carte.jpg" width="415">
+</p>
+
+
+
+Devs  | 
 ------------- | 
 Matteo Pacciani  |
 Tommaso Pegolotti  | 
 Alessia Paccagnella | 
 
-## Funzionalità sviluppate:
-- [x] Regole complete
-- [x] Socket
-- [x] RMI
-- [x] Gui
-- [x] CLI
-- [x] Partite Multiple
+## Developed features:
+- [x] Complete game rules 
+- [x] Socket connection 
+- [x] RMI connection
+- [x] Gui (graphical user interface)
+- [x] CLI (command line interface)
+- [x] Multi player
 
-## Come generare il jar:
+## How to generate the jar:
 
-    1)Posizionarsi nella cartella del progetto
-    2)eseguire il comando : mvn clean
-    3)eseguire il comando : mvn package
+    In the project folder
+    1) mvn clean
+    2) mvn package
 
-## Come iniziare il gioco:
+## How to start the game:
 
-    Da intellij :
+    From intellij :
         1)Start server
-        2)Far partire almeno 3 client sia UpdaterGui che UpdaterCli
+        2)Start at least 3 clients (both UpdaterGui and UpdaterCli)
 
     Jar :
-        1) spostarsi nella cartella del jar (/ing-sw-2019-13/target)
-        2) eseguire il comando : java -jar ing-sw-2019-13-1.0-SNAPSHOT-jar-with-dependencies.jar server
-           per far partire il server
-        3) eseguire il comando : java -jar ing-sw-2019-13-1.0-SNAPSHOT-jar-with-dependencies.jar gui
-           per far partire un client con la gui oppure
-           eseguire il comando : java -jar ing-sw-2019-13-1.0-SNAPSHOT-jar-with-dependencies.jar cli
-           per far partire un client con la cli.
+        In the jar folder (/ing-sw-2019-13/target)
+        1) java -jar ing-sw-2019-13-1.0-SNAPSHOT-jar-with-dependencies.jar server
+           to start the server
+        2) java -jar ing-sw-2019-13-1.0-SNAPSHOT-jar-with-dependencies.jar gui
+           to start a client with the gui
+           java -jar ing-sw-2019-13-1.0-SNAPSHOT-jar-with-dependencies.jar cli
+           to start a client with the cli 
 
-Per usare la cli basta riempire i campi richiesti, per far parire la gui bisogna
-riempire i campi presenti nella schermata iniziale, il programma chiederà le informazioni
-relative alla partita se necessario.
-
-NB: è necessario installare javaFX per il proprio sistema operativo.
+Note: the installation of javaFX is required
