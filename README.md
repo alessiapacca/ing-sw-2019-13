@@ -1,30 +1,27 @@
-# ing-sw-2019-13
+# Progetto di Ingegneria del Software 2019
+Implementazione del gioco in scatola Adrenaline per il progetto di ingegneria del software 2019 al Politecnico di Milano. 
 
-Gruppo 13
+Membri del gruppo  | 
+------------- | 
+Matteo Pacciani  |
+Tommaso Pegolotti  | 
+Alessia Paccagnella | 
 
-Matteo Pacciani
+## Funzionalità sviluppate:
+- [x] Regole complete
+- [x] Socket
+- [x] RMI
+- [x] Gui
+- [x] CLI
+- [x] Partite Multiple
 
-Tommaso Pegolotti
-
-Alessia Paccagnella
-
-Funzionalità sviluppate:
-
-    Regole complete
-    Socket
-    RMI
-    Gui
-    CLI
-    Partite Multiple
-
-
-Generare il jar:
+## Come generare il jar:
 
     1)Posizionarsi nella cartella del progetto
     2)eseguire il comando : mvn clean
     3)eseguire il comando : mvn package
 
-Come iniziare il gioco:
+## Come iniziare il gioco:
 
     Da intellij :
         1)Start server
