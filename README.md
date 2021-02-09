@@ -15,11 +15,11 @@ Tommaso Pegolotti  |
 Alessia Paccagnella | 
 
 ## Funzionalità sviluppate:
-- [x] Regole complete
-- [x] Socket
-- [x] RMI
-- [x] Gui
-- [x] CLI
+- [x] Regole complete del gioco
+- [x] Socket connection
+- [x] RMI connection
+- [x] Gui (graphics interface)
+- [x] CLI (command line interface)
 - [x] Partite Multiple
 
 ## Come generare il jar:
